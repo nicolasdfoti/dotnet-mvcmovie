@@ -482,3 +482,30 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Build results
+bin/
+obj/
+out/
+
+# Database files
+*.db
+*.mdf
+*.ldf
+
+# User-specific files
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# IIS / web
+wwwroot/lib/
+*.publishsettings
+
+# System
+.DS_Store
+Thumbs.db
