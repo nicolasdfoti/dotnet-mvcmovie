@@ -83,6 +83,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Pirates of the Caribbean",
+                    ReleaseDate = DateTime.Parse("2003-7-17"),
+                    Genre = "Adventure",
+                    Rating = "R",
+                    Price = 6.99M
+                },
+                new Movie
+                {
+                    Title = "Harry Potter and the Chamber of the Secrets",
+                    ReleaseDate = DateTime.Parse("2002-11-28"),
+                    Genre = "Fantasy",
+                    Rating = "R",
+                    Price = 7.99M
+                },
+                new Movie
+                {
+                    Title = "Life of Pi",
+                    ReleaseDate = DateTime.Parse("2013-1-10"),
+                    Genre = "Adventure",
+                    Rating = "R",
+                    Price = 6.99M
                 }
             );
             context.SaveChanges();
